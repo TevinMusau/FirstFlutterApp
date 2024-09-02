@@ -17,7 +17,15 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.blue[400],
       ),
       body: Center(
-        child: Image.asset('assets/muichiro.jpg')
+        child: IconButton(
+            onPressed: () {
+              print("Thanks bro");
+            },
+            icon: Icon(Icons.alternate_email),
+            color: Colors.amber,
+        ),
+
+
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
